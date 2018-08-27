@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+$x:#dddddd;
+body{
+    background: $x;
+    perspective: 500;
+}
+
+.a1{
+    background: url(../img/adduser.png);
+}
+.a2{
+    background:url(../img/apply.png)
+}
+.a3{
+    background:url(../img/home.png)
+}
+
+.listul{
+    list-style:none;
+    display:flex;
+}
+.listul li{
+    flex:auto;
+    width:100%;
+}
